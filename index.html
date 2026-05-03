@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0e3b4d" />
+  <title>Alla Sostra · Take away di pesce di lago · Dervio, Lago di Como</title>
+  <meta name="description" content="Alla Sostra è il take away di pesce di lago a Dervio, sul Lago di Como. Lasagne al ragù di lago, risotto al pesce persico, grigliata mista, pizzoccheri e frittura. Da gustare in riva al lago." />
+
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:title" content="Alla Sostra — Take away di pesce di lago a Dervio" />
+  <meta property="og:description" content="Cucina di lago, vista sul lago. Apre il venerdì sera e nei weekend a Dervio, Lago di Como." />
+  <meta property="og:locale" content="it_IT" />
+  <meta property="og:site_name" content="Alla Sostra" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230e3b4d'/%3E%3Cpath d='M14 38c4-4 8-4 12 0s8 4 12 0 8-4 12 0' stroke='%23e8c485' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3Cpath d='M14 46c4-4 8-4 12 0s8 4 12 0 8-4 12 0' stroke='%23e8c485' stroke-width='3' fill='none' stroke-linecap='round' opacity='.6'/%3E%3Ccircle cx='44' cy='22' r='5' fill='%23e8c485'/%3E%3C/svg%3E" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Salta al contenuto</a>
+
+  <header class="site-header" data-state="top">
+    <div class="container nav">
+      <a href="#top" class="brand" aria-label="Alla Sostra — Home">
+        <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M6 38c5-5 10-5 15 0s10 5 15 0 10-5 15 0 8 4 13 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          <path d="M6 48c5-5 10-5 15 0s10 5 15 0 10-5 15 0 8 4 13 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+          <circle cx="46" cy="20" r="6" fill="currentColor"/>
+        </svg>
+        <span class="brand__text">
+          <span class="brand__name">Alla Sostra</span>
+          <span class="brand__tag">Dervio · Lago di Como</span>
+        </span>
+      </a>
+
+      <nav class="nav__menu" aria-label="Navigazione principale">
+        <ul>
+          <li><a href="#storia" data-i18n="nav.story">Storia</a></li>
+          <li><a href="#menu" data-i18n="nav.menu">Menù</a></li>
+          <li><a href="#esperienza" data-i18n="nav.experience">Esperienza</a></li>
+          <li><a href="#orari" data-i18n="nav.hours">Orari</a></li>
+          <li><a href="#contatti" data-i18n="nav.contact">Contatti</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav__actions">
+        <div class="lang-switch" role="group" aria-label="Lingua">
+          <button type="button" data-lang="it" aria-pressed="true">IT</button>
+          <span aria-hidden="true">·</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a href="tel:+393667424992" class="btn btn--ghost btn--sm" data-i18n="nav.cta">Prenota</a>
+        <button class="nav__toggle" type="button" aria-label="Apri menù" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <ul>
+        <li><a href="#storia" data-i18n="nav.story">Storia</a></li>
+        <li><a href="#menu" data-i18n="nav.menu">Menù</a></li>
+        <li><a href="#esperienza" data-i18n="nav.experience">Esperienza</a></li>
+        <li><a href="#orari" data-i18n="nav.hours">Orari</a></li>
+        <li><a href="#contatti" data-i18n="nav.contact">Contatti</a></li>
+      </ul>
+      <a href="tel:+393667424992" class="btn btn--primary" data-i18n="nav.callus">Chiama 366 742 4992</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section id="top" class="hero">
+      <div class="hero__scene" aria-hidden="true">
+        <div class="hero__sky"></div>
+        <div class="hero__sun"></div>
+        <div class="hero__mountains"></div>
+        <div class="hero__lake"></div>
+        <div class="hero__ripples">
+          <svg viewBox="0 0 1200 200" preserveAspectRatio="none">
+            <path d="M0,100 C150,140 350,60 600,100 C850,140 1050,60 1200,100 L1200,200 L0,200 Z" fill="rgba(255,255,255,.08)"/>
+            <path d="M0,130 C200,160 400,100 600,130 C800,160 1000,100 1200,130 L1200,200 L0,200 Z" fill="rgba(255,255,255,.06)"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="container hero__inner">
+        <p class="hero__eyebrow" data-i18n="hero.eyebrow">Take away di pesce di lago · dal 2020</p>
+        <h1 class="hero__title">
+          <span data-i18n="hero.title1">Il sapore del lago,</span><br/>
+          <em data-i18n="hero.title2">in riva al lago.</em>
+        </h1>
+        <p class="hero__lead" data-i18n="hero.lead">
+          A Dervio, sulla sponda orientale del Lago di Como, una cucina semplice
+          e generosa: pesce di lago, ragù della tradizione e una vista che fa parte del menù.
+        </p>
+        <div class="hero__cta">
+          <a href="#menu" class="btn btn--primary" data-i18n="hero.ctaMenu">Scopri il menù</a>
+          <a href="#contatti" class="btn btn--ghost" data-i18n="hero.ctaWhere">Come arrivare</a>
+        </div>
+
+        <ul class="hero__chips" aria-label="Informazioni rapide">
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l1.5 4.6H18l-3.7 2.7L15.8 14 12 11.3 8.2 14l1.5-4.7L6 6.6h4.5z" fill="currentColor"/></svg>
+            <span><strong>4,7 / 5</strong> <span data-i18n="hero.chipReviews">su Tripadvisor</span></span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C7 2 4 6 4 10c0 6 8 12 8 12s8-6 8-12c0-4-3-8-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" fill="currentColor"/></svg>
+            <span data-i18n="hero.chipPlace">Via alla Darsena · fronte lago</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <span data-i18n="hero.chipHours">Ven sera · Sab-Dom pranzo &amp; cena</span>
+          </li>
+        </ul>
+      </div>
+
+      <a href="#storia" class="hero__scroll" aria-label="Scorri verso il basso">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- STORIA -->
+    <section id="storia" class="section storia">
+      <div class="container grid-2">
+        <div class="reveal">
+          <p class="eyebrow" data-i18n="story.eyebrow">La nostra storia</p>
+          <h2 class="h2" data-i18n="story.title">Una sosta sul lago,<br/>come una volta.</h2>
+          <p data-i18n="story.p1">
+            <em>Sostra</em>, in dialetto lariano, è il riparo dei pescatori sulla riva.
+            Da qui prendiamo il nome — e l'abitudine di trattare il pesce di lago
+            con la cura che merita: ricette di famiglia, materie prime locali, niente fronzoli.
+          </p>
+          <p data-i18n="story.p2">
+            Si ordina alla cassa, ci si siede ai tavoli affacciati sull'acqua e,
+            quando è pronto, si viene chiamati. Pochi piatti, fatti bene, da gustare
+            con i piedi quasi nel lago.
+          </p>
+          <ul class="storia__values">
+            <li>
+              <span class="storia__icon">⟁</span>
+              <h3 data-i18n="story.v1.t">Pesce di lago</h3>
+              <p data-i18n="story.v1.p">Persico, lavarello, alborelle. Dal lago al piatto.</p>
+            </li>
+            <li>
+              <span class="storia__icon">◐</span>
+              <h3 data-i18n="story.v2.t">Cucina semplice</h3>
+              <p data-i18n="story.v2.p">Ricette di tradizione, gesti precisi, prezzi onesti.</p>
+            </li>
+            <li>
+              <span class="storia__icon">≋</span>
+              <h3 data-i18n="story.v3.t">Vista sul lago</h3>
+              <p data-i18n="story.v3.p">Tavoli all'aperto sulla darsena, di fronte al Legnone.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="storia__visual reveal" aria-hidden="true">
+          <div class="card-photo card-photo--1">
+            <div class="card-photo__art art-lake"></div>
+            <span class="card-photo__caption">Vista dalla darsena</span>
+          </div>
+          <div class="card-photo card-photo--2">
+            <div class="card-photo__art art-fish"></div>
+            <span class="card-photo__caption">Pesce di lago</span>
+          </div>
+          <div class="card-photo card-photo--3">
+            <div class="card-photo__art art-plate"></div>
+            <span class="card-photo__caption">Risotto al persico</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="section menu">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow" data-i18n="menu.eyebrow">Il menù</p>
+          <h2 class="h2" data-i18n="menu.title">Quello che cuciniamo,<br/>quasi sempre.</h2>
+          <p class="section__lead" data-i18n="menu.lead">
+            Il menù cambia con la stagione e con la pesca. Questi sono i piatti che troverete più spesso.
+          </p>
+        </header>
+
+        <div class="menu__grid">
+          <article class="menu-card reveal">
+            <header>
+              <h3 data-i18n="menu.c1.t">Primi di lago</h3>
+              <span class="menu-card__line" aria-hidden="true"></span>
+            </header>
+            <ul>
+              <li>
+                <div><strong data-i18n="menu.c1.i1.n">Lasagne al ragù di lago</strong>
+                <p data-i18n="menu.c1.i1.d">Sfoglia all'uovo, ragù bianco di pesce di lago, besciamella leggera.</p></div>
+                <span class="price">€ 12</span>
+              </li>
+              <li>
+                <div><strong data-i18n="menu.c1.i2.n">Risotto al pesce persico</strong>
+                <p data-i18n="menu.c1.i2.d">Carnaroli mantecato, filetti di persico dorati nel burro e salvia.</p></div>
+                <span class="price">€ 13</span>
+              </li>
+              <li>
+                <div><strong data-i18n="menu.c1.i3.n">Tagliatelle al ragù di lago</strong>
+                <p data-i18n="menu.c1.i3.d">Pasta fresca, ragù bianco, scorza di limone del Lario.</p></div>
+                <span class="price">€ 11</span>
+              </li>
+              <li>
+                <div><strong data-i18n="menu.c1.i4.n">Pizzoccheri valtellinesi</strong>
+                <p data-i18n="menu.c1.i4.d">Grano saraceno, patate, verza, casera e burro fuso.</p></div>
+                <span class="price">€ 11</span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="menu-card reveal">
+            <header>
+              <h3 data-i18n="menu.c2.t">Dal lago, alla brace</h3>
+              <span class="menu-card__line" aria-hidden="true"></span>
+            </header>
+            <ul>
+              <li>
+                <div><strong data-i18n="menu.c2.i1.n">Grigliata mista di lago</strong>
+                <p data-i18n="menu.c2.i1.d">Lavarello, trota e persico alla griglia, olio extravergine ed erbe.</p></div>
+                <span class="price">€ 16</span>
+              </li>
+              <li>
+                <div><strong data-i18n="menu.c2.i2.n">Frittura mista di lago</strong>
+                <p data-i18n="menu.c2.i2.d">Alborelle e missoltini in pastella croccante, limone.</p></div>
+                <span class="price">€ 14</span>
+              </li>
+              <li>
+                <div><strong data-i18n="menu.c2.i3.n">Lavarello in carpione</strong>
+                <p data-i18n="menu.c2.i3.d">Marinato con aceto, cipolla e alloro. Servito freddo.</p></div>
+                <span class="price">€ 13</span>
+              </li>
+              <li>
+                <div><strong data-i18n="menu.c2.i4.n">Filetto di trota al burro</strong>
+                <p data-i18n="menu.c2.i4.d">Trota di lago, burro nocciola, mandorle tostate.</p></div>
+                <span class="price">€ 14</span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="menu-card reveal">
+            <header>
+              <h3 data-i18n="menu.c3.t">Veloci &amp; sfiziosi</h3>
+              <span class="menu-card__line" aria-hidden="true"></span>
+            </header>
+            <ul>
+              <li>
+                <div><strong data-i18n="menu.c3.i1.n">Piadina al persico</strong>
+                <p data-i18n="menu.c3.i1.d">Persico fritto, insalatina, salsa al limone.</p></div>
+                <span class="price">€ 8</span>
+              </li>
+              <li>
+                <div><strong data-i18n="menu.c3.i2.n">Piadina alla trota affumicata</strong>
+                <p data-i18n="menu.c3.i2.d">Trota affumicata del lago, formaggio fresco, rucola.</p></div>
+                <span class="price">€ 8</span>
+              </li>
+              <li>
+                <div><strong data-i18n="menu.c3.i3.n">Cono di frittura</strong>
+                <p data-i18n="menu.c3.i3.d">Alborelle in cono, da passeggio sulla darsena.</p></div>
+                <span class="price">€ 7</span>
+              </li>
+              <li>
+                <div><strong data-i18n="menu.c3.i4.n">Tagliere del Lario</strong>
+                <p data-i18n="menu.c3.i4.d">Salumi e formaggi locali, mostarda, pane di segale.</p></div>
+                <span class="price">€ 12</span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="menu-card reveal">
+            <header>
+              <h3 data-i18n="menu.c4.t">Dolci &amp; cantina</h3>
+              <span class="menu-card__line" aria-hidden="true"></span>
+            </header>
+            <ul>
+              <li>
+                <div><strong data-i18n="menu.c4.i1.n">Torta di mele della nonna</strong>
+                <p data-i18n="menu.c4.i1.d">Mele renette, cannella, panna leggermente montata.</p></div>
+                <span class="price">€ 5</span>
+              </li>
+              <li>
+                <div><strong data-i18n="menu.c4.i2.n">Tiramisù della casa</strong>
+                <p data-i18n="menu.c4.i2.d">Mascarpone, savoiardi, caffè espresso.</p></div>
+                <span class="price">€ 5</span>
+              </li>
+              <li>
+                <div><strong data-i18n="menu.c4.i3.n">Calice di bianco lariano</strong>
+                <p data-i18n="menu.c4.i3.d">Selezione di vini bianchi del territorio.</p></div>
+                <span class="price">€ 4</span>
+              </li>
+              <li>
+                <div><strong data-i18n="menu.c4.i4.n">Birra artigianale</strong>
+                <p data-i18n="menu.c4.i4.d">Selezione di birre dei birrifici del Lario.</p></div>
+                <span class="price">€ 5</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="menu__note reveal" data-i18n="menu.note">
+          I prezzi sono indicativi e possono variare con la stagionalità. Per allergeni e intolleranze chiedete in cassa.
+        </p>
+      </div>
+    </section>
+
+    <!-- ESPERIENZA -->
+    <section id="esperienza" class="section esperienza">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow" data-i18n="exp.eyebrow">L'esperienza</p>
+          <h2 class="h2" data-i18n="exp.title">Tre passi, un piatto, il lago.</h2>
+        </header>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num">01</span>
+            <h3 data-i18n="exp.s1.t">Ordini in cassa</h3>
+            <p data-i18n="exp.s1.p">Niente camerieri. Scegli al banco, paghi e prendi il numero. Servizio veloce, anche d'estate.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">02</span>
+            <h3 data-i18n="exp.s2.t">Ti siedi sul lago</h3>
+            <p data-i18n="exp.s2.p">Tavoli all'aperto sulla darsena, vista sul Monte Legnone. Anche da asporto, se preferisci.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">03</span>
+            <h3 data-i18n="exp.s3.t">Ti chiamiamo noi</h3>
+            <p data-i18n="exp.s3.p">Il piatto arriva fumante quando è pronto. Tu pensa a goderti il tramonto sul Lario.</p>
+          </li>
+        </ol>
+
+        <figure class="quote reveal">
+          <blockquote data-i18n="exp.quoteText">
+            «Un posto incantato dove gustare ottimi piatti di pesce di lago e
+            godersi la miglior vista di Dervio.»
+          </blockquote>
+          <figcaption>
+            <span class="stars" aria-label="5 stelle">★ ★ ★ ★ ★</span>
+            <span data-i18n="exp.quoteAuthor">— Recensione, Tripadvisor</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ORARI -->
+    <section id="orari" class="section orari">
+      <div class="container grid-2">
+        <div class="reveal">
+          <p class="eyebrow" data-i18n="hours.eyebrow">Quando siamo aperti</p>
+          <h2 class="h2" data-i18n="hours.title">Solo nei giorni giusti<br/>per stare sul lago.</h2>
+          <p data-i18n="hours.lead">
+            Apriamo dal venerdì sera alla domenica, stagione permettendo.
+            Per gruppi e prenotazioni speciali, chiamaci al numero qui sotto.
+          </p>
+        </div>
+
+        <div class="hours-card reveal">
+          <table aria-label="Orari di apertura">
+            <tbody>
+              <tr><th scope="row" data-i18n="hours.mon">Lunedì</th><td class="closed" data-i18n="hours.closed">Chiuso</td></tr>
+              <tr><th scope="row" data-i18n="hours.tue">Martedì</th><td class="closed" data-i18n="hours.closed">Chiuso</td></tr>
+              <tr><th scope="row" data-i18n="hours.wed">Mercoledì</th><td class="closed" data-i18n="hours.closed">Chiuso</td></tr>
+              <tr><th scope="row" data-i18n="hours.thu">Giovedì</th><td class="closed" data-i18n="hours.closed">Chiuso</td></tr>
+              <tr class="active"><th scope="row" data-i18n="hours.fri">Venerdì</th><td>18:00 — 22:00</td></tr>
+              <tr class="active"><th scope="row" data-i18n="hours.sat">Sabato</th><td>10:00 — 14:00 · 18:00 — 22:00</td></tr>
+              <tr class="active"><th scope="row" data-i18n="hours.sun">Domenica</th><td>10:00 — 14:00 · 18:00 — 22:00</td></tr>
+            </tbody>
+          </table>
+          <p class="hours-card__note" data-i18n="hours.note">★ Aperture stagionali · Chiamate sempre prima di una lunga camminata.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATTI -->
+    <section id="contatti" class="section contatti">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow" data-i18n="contact.eyebrow">Vieni a trovarci</p>
+          <h2 class="h2" data-i18n="contact.title">Sulla darsena di Dervio.</h2>
+          <p class="section__lead" data-i18n="contact.lead">
+            Sulla riva orientale del Lago di Como, a pochi passi dalla stazione e dal porto.
+          </p>
+        </header>
+
+        <div class="contact-grid">
+          <a href="https://www.google.com/maps/search/?api=1&query=Alla+Sostra+Dervio+Via+alla+Darsena" target="_blank" rel="noopener" class="contact-card reveal">
+            <span class="contact-card__ico" aria-hidden="true">⌖</span>
+            <h3 data-i18n="contact.addrT">Indirizzo</h3>
+            <p>Via alla Darsena, Lungo Lago<br/>23824 Dervio (LC)</p>
+            <span class="contact-card__action" data-i18n="contact.addrA">Apri in Maps →</span>
+          </a>
+
+          <a href="tel:+393667424992" class="contact-card reveal">
+            <span class="contact-card__ico" aria-hidden="true">☏</span>
+            <h3 data-i18n="contact.phoneT">Telefono</h3>
+            <p>366 742 4992</p>
+            <span class="contact-card__action" data-i18n="contact.phoneA">Chiama ora →</span>
+          </a>
+
+          <a href="https://www.instagram.com/alla_sostra_takeaway2020/" target="_blank" rel="noopener" class="contact-card reveal">
+            <span class="contact-card__ico" aria-hidden="true">◎</span>
+            <h3 data-i18n="contact.igT">Instagram</h3>
+            <p>@alla_sostra_takeaway2020</p>
+            <span class="contact-card__action" data-i18n="contact.igA">Seguici →</span>
+          </a>
+
+          <a href="https://www.facebook.com/p/Alla-Sostra-Take-Away-100063705545893/" target="_blank" rel="noopener" class="contact-card reveal">
+            <span class="contact-card__ico" aria-hidden="true">f</span>
+            <h3 data-i18n="contact.fbT">Facebook</h3>
+            <p>Alla Sostra Take Away</p>
+            <span class="contact-card__action" data-i18n="contact.fbA">Visita la pagina →</span>
+          </a>
+        </div>
+
+        <div class="map reveal" aria-label="Mappa di Dervio">
+          <iframe
+            title="Mappa Alla Sostra"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=9.296%2C46.072%2C9.314%2C46.082&layer=mapnik&marker=46.077%2C9.305"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#top" class="brand brand--footer">
+          <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M6 38c5-5 10-5 15 0s10 5 15 0 10-5 15 0 8 4 13 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <path d="M6 48c5-5 10-5 15 0s10 5 15 0 10-5 15 0 8 4 13 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+            <circle cx="46" cy="20" r="6" fill="currentColor"/>
+          </svg>
+          <span class="brand__text">
+            <span class="brand__name">Alla Sostra</span>
+            <span class="brand__tag" data-i18n="footer.tag">Take away di pesce di lago</span>
+          </span>
+        </a>
+        <p class="footer__about" data-i18n="footer.about">
+          Cucina di lago e vista sul lago, sulla darsena di Dervio.
+          Apriamo il venerdì sera e nei weekend.
+        </p>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer.h1">Vieni a trovarci</h4>
+        <p>Via alla Darsena, Lungo Lago<br/>23824 Dervio (LC)<br/>Lago di Como, Italia</p>
+      </div>
+
+      <div>
+        <h4 data-i18n="footer.h2">Contatti</h4>
+        <p>
+          <a href="tel:+393667424992">366 742 4992</a><br/>
+          <a href="https://www.instagram.com/alla_sostra_takeaway2020/" target="_blank" rel="noopener">Instagram</a> ·
+          <a href="https://www.facebook.com/p/Alla-Sostra-Take-Away-100063705545893/" target="_blank" rel="noopener">Facebook</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> Alla Sostra · P.IVA — · <span data-i18n="footer.made">Sito creato con cura, in riva al lago.</span></p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
