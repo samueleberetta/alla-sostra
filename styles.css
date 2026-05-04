@@ -358,20 +358,17 @@ table { border-collapse: collapse; width: 100%; }
 
 .menu-card ul { list-style: none; padding: 0; margin: 0; }
 .menu-card li {
-  display: flex; align-items: baseline; gap: 16px;
-  padding: 14px 0; border-bottom: 1px dashed var(--c-line);
+  padding: 12px 0; border-bottom: 1px dashed var(--c-line);
+  font-size: 17px; color: var(--c-lake-900);
 }
 .menu-card li:last-child { border-bottom: 0; }
-.menu-card li > div { flex: 1; min-width: 0; }
 .menu-card strong {
-  font-size: 16px; color: var(--c-lake-900); font-weight: 600; display: block;
+  font-weight: 500;
 }
-.menu-card p {
-  margin: 4px 0 0; font-size: 14px; color: var(--c-ink-soft); line-height: 1.5;
-}
-.price {
-  font-family: var(--f-display); font-weight: 600; font-size: 20px;
-  color: var(--c-copper); white-space: nowrap;
+
+.menu__grid--2 {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 880px; margin-inline: auto;
 }
 
 .menu__note {
